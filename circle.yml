@@ -98,7 +98,7 @@ deployment:
   #    - ./deploy.sh
 
   production:
-    branch: production
-    owner: frenb
+    branch: master
+    owner: deezium
     commands:
       - ./deploy.sh
